@@ -1,0 +1,18 @@
+TicTacToe
+- 1 player, 2 player options
+
+
+Tower of hanoi
+- player to place tiles
+
+
+MineSweeper
+- playable
+
+
+I/O Chapter 12
+- playable
+
+
+Battleship
+- 1 player, 2 player options
