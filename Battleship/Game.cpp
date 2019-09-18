@@ -1,6 +1,7 @@
 #include "Game.h"
 #include "Board.h"
 #include "Instructions.h"
+#include <windows.h>
 #include <iostream>
 #include <string>
 #include <vector>
@@ -13,6 +14,7 @@ Instructions Instructions1 = Instructions();
 
 void Game::game()
 {
+	SetConsoleDisplayMode(GetStdHandle(STD_OUTPUT_HANDLE), CONSOLE_FULLSCREEN_MODE, 0);
 	Instructions1.instructions();
 	Instructions1.playerAmount();
 
@@ -26,4 +28,5 @@ void Game::game()
 	}
 
 	Board1.emptyBoard();
+	Board1.shoot();
 }

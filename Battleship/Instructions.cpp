@@ -17,6 +17,7 @@ int Instructions::playerAmount()
 		if (players == 1 || players == 2)
 		{
 			wrongPlayers = false;
+			system("CLS");
 			return players;
 		}
 		else
