@@ -1,8 +1,0 @@
-﻿  Board.cpp
-  Game.cpp
-C:\Users\User\Documents\GitHub\C-Main-Projects\Tic Tac Toe\Game.cpp(118,67): error C2660:  'Game::askNumber': function does not take 2 arguments
-C:\Users\User\Documents\GitHub\C-Main-Projects\Tic Tac Toe\Game.cpp(99,11): message :  see declaration of 'Game::askNumber'
-C:\Users\User\Documents\GitHub\C-Main-Projects\Tic Tac Toe\Game.cpp(122,64): error C2660:  'Game::askNumber': function does not take 2 arguments
-  Main.cpp
-  Generating Code...
-C:\Users\User\Documents\GitHub\C-Main-Projects\Tic Tac Toe\Game.cpp(99,11): message :  see declaration of 'Game::askNumber'
