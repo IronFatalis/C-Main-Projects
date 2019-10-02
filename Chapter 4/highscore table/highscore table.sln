@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "highscore table", "highscore table.vcxproj", "{26415435-4845-4549-ADF7-1BAB1DCADF2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26415435-4845-4549-ADF7-1BAB1DCADF2C}.Debug|x64.ActiveCfg = Debug|x64
+		{26415435-4845-4549-ADF7-1BAB1DCADF2C}.Debug|x64.Build.0 = Debug|x64
+		{26415435-4845-4549-ADF7-1BAB1DCADF2C}.Debug|x86.ActiveCfg = Debug|Win32
+		{26415435-4845-4549-ADF7-1BAB1DCADF2C}.Debug|x86.Build.0 = Debug|Win32
+		{26415435-4845-4549-ADF7-1BAB1DCADF2C}.Release|x64.ActiveCfg = Release|x64
+		{26415435-4845-4549-ADF7-1BAB1DCADF2C}.Release|x64.Build.0 = Release|x64
+		{26415435-4845-4549-ADF7-1BAB1DCADF2C}.Release|x86.ActiveCfg = Release|Win32
+		{26415435-4845-4549-ADF7-1BAB1DCADF2C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09F95D80-574A-48A2-8B6A-75D75F4F0C1E}
+	EndGlobalSection
+EndGlobal

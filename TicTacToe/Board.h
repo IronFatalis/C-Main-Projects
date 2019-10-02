@@ -1,5 +1,4 @@
 #pragma once
-
 class Board
 {
 public:
@@ -10,6 +9,7 @@ public:
 	void Display() const;
 	void Reset();
 	void ReceiveMove(char piece, int move);
+
 	static const int NUM_SQUARES = 9;
 	static const char EMPTY = ' ';
 
@@ -17,5 +17,7 @@ private:
 	static const int NUM_COMBOS = 8;
 	static const int NUM_IN_COMBO = 3;
 	static const int WINNING_COMBOS[NUM_COMBOS][NUM_IN_COMBO];
+
 	char m_Squares[NUM_SQUARES];
 };
+

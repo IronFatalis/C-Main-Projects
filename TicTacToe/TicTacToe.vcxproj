@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{EA92B445-10DF-4C64-A964-1166EB59EAF5}</ProjectGuid>
+    <ProjectGuid>{0D13843A-76F4-4A31-959F-E150BEAFC6CB}</ProjectGuid>
     <RootNamespace>TicTacToe</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -127,11 +127,15 @@
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerComputer.cpp" />
+    <ClCompile Include="PlayerHuman.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Board.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerComputer.h" />
+    <ClInclude Include="PlayerHuman.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

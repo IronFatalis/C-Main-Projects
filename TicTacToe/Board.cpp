@@ -1,10 +1,9 @@
-#include "board.h"
-
+#include "Board.h"
 #include <iostream>
+
 using namespace std;
 
-const int Board::WINNING_COMBOS[NUM_COMBOS]
-[NUM_IN_COMBO] = { {0, 1, 2},{3, 4, 5},{6, 7, 8},{0, 3, 6},{1, 4, 7},{2, 5, 8},{0, 4, 8}, {2, 4, 6} };
+const int Board::WINNING_COMBOS[NUM_COMBOS][NUM_IN_COMBO] = { {0,1,2},{3,4,5},{6,7,8},{0,3,6},{1,4,7},{2,5,8},{0,4,8},{2,4,6} };
 
 Board::Board()
 {
@@ -15,6 +14,7 @@ bool Board::IsFull() const
 {
 	bool full = true;
 	int i = 0;
+
 	while (full && i < NUM_SQUARES)
 	{
 		if (m_Squares[i] == EMPTY)
@@ -35,9 +35,11 @@ bool Board::IsWinner(char piece) const
 {
 	bool winner = false;
 	int i = 0;
+
 	while (!winner && i < NUM_COMBOS)
 	{
 		int piecesInCombo = 0;
+
 		for (int j = 0; j < NUM_IN_COMBO; j++)
 		{
 			if (m_Squares[WINNING_COMBOS[i][j]] == piece)
@@ -51,17 +53,14 @@ bool Board::IsWinner(char piece) const
 		}
 		i++;
 	}
-
 	return winner;
 }
 
 void Board::Display() const
 {
-	cout << "\n\t" << m_Squares[0] << " | " << m_Squares[1] << " | " << m_Squares[2];
-	cout << "\n\t" << "---------";
-	cout << "\n\t" << m_Squares[3] << " | " << m_Squares[4] << " | " << m_Squares[5];
-	cout << "\n\t" << "---------";
-	cout << "\n\t" << m_Squares[6] << " | " << m_Squares[7] << " | " << m_Squares[8] << endl << endl;
+	cout << "\n\t" << m_Squares[0] << " | " << m_Squares[1] << " | " << m_Squares[2] << "\n\t---------";
+	cout << "\n\t" << m_Squares[3] << " | " << m_Squares[4] << " | " << m_Squares[5] << "\n\t---------";
+	cout << "\n\t" << m_Squares[6] << " | " << m_Squares[7] << " | " << m_Squares[8] << "\n\n";
 }
 
 void Board::Reset()

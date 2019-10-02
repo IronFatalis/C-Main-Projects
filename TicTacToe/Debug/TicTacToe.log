@@ -1,4 +1,2 @@
-﻿  Main.cpp
-  Player.cpp
-  Generating Code...
-  TicTacToe.vcxproj -> C:\Users\earle\Desktop\TicTacToe\Debug\TicTacToe.exe
+﻿  Board.cpp
+LINK : fatal error LNK1168: cannot open C:\Users\earle\Desktop\TicTacToe\Debug\TicTacToe.exe for writing
